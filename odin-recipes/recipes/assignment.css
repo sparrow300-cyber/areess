@@ -1,0 +1,153 @@
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 4, 41);
+    color: aliceblue;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-inline: 64px;
+    margin-bottom: 32px;
+}
+.logo{
+    margin-right:auto;
+    font-weight: 600;
+    font-size:32px ;
+}
+.secondpart{
+    display: flex;
+    padding:32px 64px;
+    margin-bottom: 16px;
+    justify-content: center;
+    gap: 32px;
+    
+}
+.secondpart button{
+    padding:8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(7, 156, 255);
+}
+.place-holder{
+    flex-grow: 2;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction:column; 
+    background-color:whitesmoke;
+    list-style: none;
+    padding:32px 0 ;
+}
+.main h2{
+    text-align: center;
+}
+.box{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+.box-holder{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    padding: 48px;
+    margin-bottom: 4px;
+    border: 4px solid; 
+    border-color: rgb(0, 110, 255);
+    border-radius: 10%;
+    
+}
+
+.box-holder div:nth-child(2){
+    display:flex;
+    justify-content: center;
+}
+.box-holder p{
+    font-size: xx-small;
+    width: 128px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer em{
+    width: 40%;
+}
+.footer h4{
+    width: 40%;
+    text-align: end;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.cta div{
+    display: flex;
+    flex-direction: ;
+    margin:auto;
+    background-color: rgb(71, 172, 255);
+    padding: 32px 64px;
+    align-items: center;
+    border-radius: 4px;
+}
+.cta div div{
+    display: flex;
+    flex-direction:column ;
+    align-items: start;
+    width: 70%;
+    background-color:;
+    color: whitesmoke;
+    padding:0;
+}
+#p1{
+    font-size: medium;
+    font-weight: 800;
+}
+
+.cta div p{
+    background-color:;
+    margin: 0;
+}
+.cta div button{
+    height: 32px;
+    padding: 4px 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.last{
+    height: 32px;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
